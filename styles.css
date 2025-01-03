@@ -33,3 +33,20 @@ body {
   #navbar ul li {
     margin: 0 16px;
   }
+
+  .nav-link {
+    text-decoration: none;
+    font-family: "Raleway", "sans-serif";
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(33, 148, 180);
+  }
+  
+  .nav-link:visited {
+    color: rgb(33, 148, 180);
+  }
+  
+  .nav-link:hover {
+    color: rgb(255, 187, 78);
+  }
