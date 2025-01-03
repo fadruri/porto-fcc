@@ -50,3 +50,22 @@ body {
   .nav-link:hover {
     color: rgb(255, 187, 78);
   }
+
+  #welcome-section {
+    display: flex;
+    
+    background-image: url('https://i1.pickpik.com/photos/286/102/482/textures-abstract-245131dc8299bcebbe002f07bbb65c90.jpg');
+    background-repeat: no-repat;
+    background-position: center;
+    height: 700px;
+    background-color: rgba(0, 0, 0, .15);
+    background-blend-mode: multiply;
+  }
+  
+  #welcome-section h1 {
+    text-align: center;
+    margin: auto;
+    font-family: "Raleway", "sans-serif";
+    color: white;
+    font-size: 2.4em;
+  }
