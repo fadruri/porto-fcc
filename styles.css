@@ -73,3 +73,29 @@ body {
     color: white;
     font-size: 2.4em;
   }
+
+  #projects {
+    background-color: rgb(35, 105, 132);
+    padding: 42px;
+  }
+  
+  #projects h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-family: "Raleway", "sans-serif";
+    color: white;
+  }
+  
+  #project-tiles {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .project-tile {
+    height: 280px;  
+    width: 400px;
+  }
+  
+  #project-1 {
+    background-image: url("https://cdn.prod.website-files.com/630a4d18e83aaa000bcd651e/6675d915fee34d042a96403e_shutterstock_1858920145.jpg")
+  }
