@@ -147,3 +147,8 @@ body {
   #project-1, #project-2, #project-3,  #project-4,  #project-5,  #project-6  {
     background-image: url("https://cdn.prod.website-files.com/630a4d18e83aaa000bcd651e/6675d915fee34d042a96403e_shutterstock_1858920145.jpg");
   }
+
+  footer {
+    height: 200px;
+    background-color: rgb(61, 87, 97);
+  }
