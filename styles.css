@@ -16,6 +16,8 @@ body {
     display: flex;
   }
   
+  /* Navbar */
+
   #navbar {
     top: 0;
     position: sticky;
@@ -56,6 +58,27 @@ body {
   
   .nav-link:hover {
     color: rgb(255, 184, 92);
+  }
+
+  @media only screen and (max-width: 900px) {
+    #navbar ul li {
+      margin: 0 auto;
+    }
+
+    #navbar ul {
+      justify-content: center;
+      padding: 12px 20px;
+    }
+  }
+
+  @media only screen and (max-width: 560px) {
+    #navbar ul li {
+      margin: 0 auto;
+    }
+
+    #navbar ul {
+      justify-content: center;
+    }
   }
 
   #welcome-section {
