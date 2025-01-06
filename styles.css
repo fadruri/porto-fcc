@@ -60,27 +60,6 @@ body {
     color: rgb(255, 184, 92);
   }
 
-  @media only screen and (max-width: 900px) {
-    #navbar ul li {
-      margin: 0 auto;
-    }
-
-    #navbar ul {
-      justify-content: center;
-      padding: 12px 20px;
-    }
-  }
-
-  @media only screen and (max-width: 560px) {
-    #navbar ul li {
-      margin: 0 auto;
-    }
-
-    #navbar ul {
-      justify-content: center;
-    }
-  }
-
   #welcome-section {
     display: flex;
     background-image: url('https://i1.pickpik.com/photos/286/102/482/textures-abstract-245131dc8299bcebbe002f07bbb65c90.jpg');
@@ -122,11 +101,9 @@ body {
     grid-template-columns: auto auto auto;
     place-content: center center;
   }
-
-  
   
   .project-tile {
-    height: 280px;  
+    height: 300px;  
     width: 400px;
     border-radius: 20px;
     overflow: hidden;
@@ -151,4 +128,37 @@ body {
   footer {
     height: 200px;
     background-color: rgb(61, 87, 97);
+  }
+
+  @media only screen and (max-width: 1360px) {
+    #project-tiles {
+      grid-template-columns: auto auto ;
+      place-content: center center;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    #navbar ul li {
+      margin: 0 auto;
+    }
+
+    #navbar ul {
+      justify-content: center;
+      padding: 12px 20px;
+    }
+
+    #project-tiles {
+      grid-template-columns: auto;
+      place-content: center center;
+    }
+  }
+
+  @media only screen and (max-width: 560px) {
+    #navbar ul li {
+      margin: 0 auto;
+    }
+
+    #navbar ul {
+      justify-content: center;
+    }
   }
