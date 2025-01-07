@@ -12,6 +12,10 @@ body {
     margin-top: -83px;
   }
 
+  .text-center {
+    text-align: center;
+  }
+
   .flex-container {
     display: flex;
   }
@@ -83,7 +87,7 @@ body {
   }
 
   #projects {
-    background-color: rgb(35, 105, 132);
+    background-color: rgb(33, 97, 122);
     padding: 80px 42px 100px 42px;
   }
   
@@ -99,7 +103,7 @@ body {
   
   #project-tiles {
     display: grid;
-    gap: 16px;
+    gap: 32px;
     grid-template-columns: auto auto auto;
     place-content: center center;
   }
@@ -121,13 +125,12 @@ body {
   }
 
   .project-tile:hover {
-    width: 420px;
-    height: 315px;
+    transform: scale(1.1); 
+    transition: all .15s ease-in-out; 
   }
 
   .project-title {
     background-color: rgb(79, 101, 110);
-    color: white;
     padding: 10px 16px;
     font-size: 1.2em;
     font-family: "Raleway", "sans-serif";
@@ -136,7 +139,7 @@ body {
 
   .project-tile:hover .project-title {
     background-color: rgb(95, 181, 184);
-    color: white;
+    color: rgb(255, 184, 92)
   }
   
   #project-1, #project-2, #project-3,  #project-4,  #project-5 {
@@ -145,6 +148,26 @@ body {
   
   #project-6  {
     background-image: url("images/Rick.png");
+  }
+
+  #more-stuff-container {
+    margin-top: 60px;
+  }
+
+  #more-stuff {
+    border-radius: 8px;
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgb(79, 101, 110);
+    font-size: 1.2em;
+    font-family: "Raleway", "sans-serif";
+    color: white;
+    font-weight: 500;
+  }
+
+  #more-stuff:hover {
+    background-color: rgb(95, 181, 184);
+    color: rgb(255, 184, 92);
   }
 
   footer {
@@ -184,7 +207,6 @@ body {
       width: 400px;
       height: 300px;
     }
-    
   }
 
   @media only screen and (max-width: 560px) {
@@ -192,5 +214,5 @@ body {
       width: 300px;
       height: 225px;
     }
-    
+
   }
